@@ -13,7 +13,12 @@ public class MainMenuScript : MonoBehaviour
     public void MainPlayButton()
     {
         Debug.Log("Play button pressed");
-      //  SceneManager.LoadScene("LEVELNAME");
+        SceneManager.LoadScene("SampleLevelV2");
+    }
+    public void MainMenuButton()
+    {
+        Debug.Log("Main menu button pressed");
+        SceneManager.LoadScene("MainMenu");
     }
     public void QuitFromGame()
     {

@@ -15,7 +15,7 @@ public class FireGun : MonoBehaviour
     {
         Debug.Log("Go!");
         
-       Instantiate(_bullet, _firePlace).Firegun = this;
+       Instantiate(_bullet, _firePlace.position,_firePlace.rotation).Firegun = this;
     }
     // Update is called once per frame
     void Update()

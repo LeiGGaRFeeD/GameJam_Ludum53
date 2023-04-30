@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3339528548857965506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3339528548857965509}
+  - component: {fileID: 3339528548857965508}
+  - component: {fileID: 3339528548857965511}
+  - component: {fileID: 3339528548857965510}
+  - component: {fileID: 3339528548857965505}
+  - component: {fileID: 3339528548857965504}
+  - component: {fileID: 3339528548857965507}
+  - component: {fileID: 3339528548857965514}
+  m_Layer: 0
+  m_Name: MainController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3339528548857965509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 852.8366, y: 357.40854, z: 5.0037093}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3339528548857965508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d6b50a802e11043b904de0c46fe324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cellTypeOne:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _rotateAngle: 10
+  _maxAngle: 900
+--- !u!114 &3339528548857965511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5d0b2b45f148d49be0d1ad48631aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cellTypeOne:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _rotateAngle: 10
+  _maxAngle: 900
+--- !u!114 &3339528548857965510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed868ec79f2af6448dc97fdfa79b05f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _firePlaces:
+  - {fileID: 0}
+  _button: {fileID: 0}
+--- !u!114 &3339528548857965505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99dc7cc1737f657458030f6d8cc84f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cellTypeOne:
+  - {fileID: 0}
+  - {fileID: 0}
+  _rotateAngle: 10
+  _maxAngle: 0
+  _sprites: []
+--- !u!114 &3339528548857965504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0ccb4bdb1affd4ba67b598ea682fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Boats:
+  - {fileID: 0}
+  _rotateAngle: 90
+  _maxAngle: 360
+  _sprites: []
+  _negative: 1
+--- !u!114 &3339528548857965507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9580ebd5314d3574f912b46b02c358a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 0}
+--- !u!114 &3339528548857965514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3339528548857965506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad10ea8ba7158e439da99e400997a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onlyLeft: {fileID: 0}
+  _onlyRight: {fileID: 0}
+  _onlyMixed: {fileID: 0}
+  _onlyStartBoat: {fileID: 0}
+  _redLineOne: {fileID: 0}
+  _redLineTwo: {fileID: 0}
+  _redLineThree: {fileID: 0}
+  _redLineFour: {fileID: 0}

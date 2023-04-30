@@ -13,7 +13,8 @@ public class MainMenuScript : MonoBehaviour
     public void MainPlayButton()
     {
         Debug.Log("Play button pressed");
-        SceneManager.LoadScene("SampleLevelV2");
+        //  SceneManager.LoadScene("SampleLevelV2");
+        SceneManager.LoadScene("Level1");
     }
     public void MainMenuButton()
     {

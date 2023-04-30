@@ -15,7 +15,7 @@ public class GoToLevelTwoOnLevel : MonoBehaviour
         if (collision.GetComponent<Signal>())
         {
             Debug.Log("Load second level");
-            SceneManager.LoadScene("SCENENAME");
+            SceneManager.LoadScene("Level2");
         }
     }
     // Update is called once per frame

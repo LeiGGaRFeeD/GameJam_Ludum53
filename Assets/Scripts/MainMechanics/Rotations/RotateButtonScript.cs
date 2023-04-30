@@ -9,6 +9,7 @@ public class RotateButtonScript : MonoBehaviour
     [SerializeField] private int _rotateAngle = 10;
     private int _nowRotate = 0;
     [SerializeField] private int _maxAngle;
+  //  [SerializeField] private GameObject[] _sprites;
     void Start()
     {
         
@@ -35,5 +36,13 @@ public class RotateButtonScript : MonoBehaviour
     void Update()
     {
         Debug.Log("_nowRotate is "+_nowRotate);
+        if (gameObject.transform.rotation.z >30)
+        {
+            Debug.Log("More 30");
+        }
+        Debug.Log("Rotattion Transform" + transform.rotation.z);
+        
+       //     gameObject.SetActive(false);
+        
     }
 }

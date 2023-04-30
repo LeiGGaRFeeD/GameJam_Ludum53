@@ -43,16 +43,17 @@ public class FinishPointV2 : MonoBehaviour
             Debug.Log("GoToLevel6");
             SceneManager.LoadScene("Level6");
         }
-        else
+    /*    else
         {
             Debug.Log("ERROR!!!");
             SceneManager.LoadScene("MainMenu");
-        }
+        }*/
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<Signal>())
         {
+            _levelNow = PlayerPrefs.GetInt("level");
             Debug.Log("Collision works. Target achived");
             _levelNow++;
             PlayerPrefs.SetInt("level", _levelNow);
@@ -62,6 +63,6 @@ public class FinishPointV2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("_load = "+PlayerPrefs.GetInt("level"));
     }
 }

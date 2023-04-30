@@ -8,7 +8,10 @@ public class MainMenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (PlayerPrefs.GetInt("level") == 0 || PlayerPrefs.GetInt("level") == null)
+        {
+            PlayerPrefs.SetInt("level",1);
+        }
     }
     public void MainPlayButton()
     {

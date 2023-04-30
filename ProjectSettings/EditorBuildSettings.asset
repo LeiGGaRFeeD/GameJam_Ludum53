@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Not Used/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Levels/SampleLevel.unity
+    path: Assets/Scenes/Levels/NotUsed/SampleLevel.unity
     guid: 518111847e43a164ea2d1129e6917df1
   - enabled: 1
-    path: Assets/Scenes/Levels/SampleLevelV2.unity
+    path: Assets/Scenes/Levels/NotUsed/SampleLevelV2.unity
     guid: e1c8601d08d046943b3789ae15999938
   - enabled: 1
     path: Assets/Scenes/Menu/Finished.unity

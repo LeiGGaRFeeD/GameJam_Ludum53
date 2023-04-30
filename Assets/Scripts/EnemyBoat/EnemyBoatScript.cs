@@ -11,7 +11,14 @@ public class EnemyBoatScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<BulletScript>() != null)
+     /*   if (collision.gameObject.GetComponent<BulletScript>() != null)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }*/
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.GetComponent<Signal>())
         {
             Application.LoadLevel(Application.loadedLevel);
         }

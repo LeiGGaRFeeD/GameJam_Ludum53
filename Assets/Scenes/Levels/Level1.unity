@@ -1206,6 +1206,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 41005025567071538, guid: 469400073fb2c90478ca48fa5e346ca7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6178308946663230052, guid: 469400073fb2c90478ca48fa5e346ca7, type: 3}
       propertyPath: m_Name
       value: EnemyBoat
@@ -1254,7 +1258,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6178308946663230059, guid: 469400073fb2c90478ca48fa5e346ca7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 41005025567071538, guid: 469400073fb2c90478ca48fa5e346ca7, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 469400073fb2c90478ca48fa5e346ca7, type: 3}
 --- !u!1001 &3339528548783467138

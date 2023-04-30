@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3521924539845570816}
   - component: {fileID: 5100872887032163610}
-  - component: {fileID: 2350829960737661616}
+  - component: {fileID: 918195957202313207}
   - component: {fileID: 716256776157385547}
   m_Layer: 0
   m_Name: Zone
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2350829960737661616
+--- !u!114 &918195957202313207
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5070466256734589102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8b08e5f75edadc4484f71a6f1af90bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 4db2841a857b2544bb85ee8ffc24c6bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!70 &716256776157385547
@@ -108,7 +108,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000007450581, y: 0}

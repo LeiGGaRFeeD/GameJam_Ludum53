@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 485619440}
   - component: {fileID: 485619442}
   - component: {fileID: 485619443}
+  - component: {fileID: 485619444}
   m_Layer: 0
   m_Name: MainController
   m_TagString: Untagged
@@ -488,6 +489,19 @@ MonoBehaviour:
   _maxAngle: 900
   _sprites: []
   _negative: 0
+--- !u!114 &485619444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485619437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9580ebd5314d3574f912b46b02c358a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 894934717}
 --- !u!1001 &491213369
 PrefabInstance:
   m_ObjectHideFlags: 0

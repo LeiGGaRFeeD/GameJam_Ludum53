@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 747016362}
   - component: {fileID: 747016361}
   m_Layer: 0
-  m_Name: "\u0431\u0443\u0435\u043A \u0436\u0435\u043B"
+  m_Name: yellowCell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 1217432007}
   - component: {fileID: 1217432006}
   m_Layer: 0
-  m_Name: "\u0442\u0430\u0440\u0435\u043B\u043A\u0430 3"
+  m_Name: dish3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1550,7 +1550,7 @@ GameObject:
   - component: {fileID: 1925102723}
   - component: {fileID: 1925102722}
   m_Layer: 0
-  m_Name: EnemyBoatMiddle
+  m_Name: EnemyBoatSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

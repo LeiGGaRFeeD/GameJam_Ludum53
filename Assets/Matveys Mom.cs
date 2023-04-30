@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class MatveysMom : MonoBehaviour
 {
-//Тут лежит мать Матвея
+//Тут лижет мать Матвея
 }

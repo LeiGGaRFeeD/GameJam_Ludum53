@@ -19,6 +19,8 @@ public class MainMenuScript : MonoBehaviour
     public void MainMenuButton()
     {
         Debug.Log("Main menu button pressed");
+        PlayerPrefs.SetInt("level", 1);
+        Debug.Log("Level counter reseted");
         SceneManager.LoadScene("MainMenu");
     }
     public void QuitFromGame()

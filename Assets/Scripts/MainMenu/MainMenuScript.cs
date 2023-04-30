@@ -14,7 +14,7 @@ public class MainMenuScript : MonoBehaviour
     {
         Debug.Log("Play button pressed");
         //  SceneManager.LoadScene("SampleLevelV2");
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("StartComics");
     }
     public void MainMenuButton()
     {

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level2.unity
     guid: b8435dc5660c6dd45b6b4328d4a38fc0
+  - enabled: 1
+    path: Assets/Scenes/Comics/StartComics.unity
+    guid: 97016d8e5834e9f4ab9e84f71ebab3d2
   m_configObjects: {}

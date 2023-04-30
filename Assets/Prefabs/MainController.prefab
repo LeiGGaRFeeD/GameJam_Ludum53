@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3339528548857965510}
   - component: {fileID: 3339528548857965505}
   - component: {fileID: 3339528548857965504}
-  - component: {fileID: 3339528548857965507}
   - component: {fileID: 3339528548857965514}
   m_Layer: 0
   m_Name: MainController
@@ -125,19 +124,6 @@ MonoBehaviour:
   _maxAngle: 360
   _sprites: []
   _negative: 1
---- !u!114 &3339528548857965507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3339528548857965506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9580ebd5314d3574f912b46b02c358a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _canvas: {fileID: 0}
 --- !u!114 &3339528548857965514
 MonoBehaviour:
   m_ObjectHideFlags: 0

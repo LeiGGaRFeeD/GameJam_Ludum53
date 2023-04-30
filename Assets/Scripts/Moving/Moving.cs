@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Moving : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private float _speed;
+    [SerializeField] private Transform[] _points;
+
+    private int _pointNumber;
+
     void Start()
     {
-        
+        _pointNumber = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position == _points[_pointNumber].position)
+        {
+            if (_pointNumber + 1 != _points.Length)
+                _pointNumber++;
+            else
+                _pointNumber = 0;
+
+        }
+        transform.position = Vector3.MoveTowards(transform.position, _points[_pointNumber].position, _speed);
     }
 }

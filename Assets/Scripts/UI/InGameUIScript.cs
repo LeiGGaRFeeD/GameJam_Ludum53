@@ -14,9 +14,29 @@ public class InGameUIScript : MonoBehaviour
     [SerializeField] private GameObject _redLineTwo;
     [SerializeField] private GameObject _redLineThree;
     [SerializeField] private GameObject _redLineFour;
+    private int _lastPressed;
     void Start()
     {
         Changing(1);
+        if (Time.timeScale == 1)
+        {
+            if (_lastPressed == 1)
+            {
+                ButtonForLeft();
+            }
+            if (_lastPressed == 2)
+            {
+                ButtonForRight();
+            }
+            if (_lastPressed == 3)
+            {
+                ButtonForMixed();
+            }
+            if (_lastPressed == 4)
+            {
+                ButtonStartBoat();
+            }
+        }
     }
     void Changing(int _state)
     {
@@ -32,22 +52,44 @@ public class InGameUIScript : MonoBehaviour
     public void ButtonForLeft()
     {
         Changing(1);
+        _lastPressed = 1;
     }
     public void ButtonForRight()
     {
         Changing(2);
+        _lastPressed = 2;
     }
     public void ButtonForMixed()
     {
         Changing(3);
+        _lastPressed = 3;
     }
     public void ButtonStartBoat()
     {
         Changing(4);
+        _lastPressed = 4;
     }
     // Update is called once per frame
     void Update()
     {
-        
+        if (Time.timeScale == 1)
+        {
+            if (_lastPressed == 1)
+            {
+                ButtonForLeft();
+            }
+            if (_lastPressed == 2)
+            {
+                ButtonForRight();
+            }
+            if (_lastPressed == 3)
+            {
+                ButtonForMixed();
+            }
+            if (_lastPressed == 4)
+            {
+                ButtonStartBoat();
+            }
+        }
     }
 }

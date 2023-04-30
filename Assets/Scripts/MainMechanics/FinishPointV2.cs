@@ -46,7 +46,7 @@ public class FinishPointV2 : MonoBehaviour
         else
         {
             Debug.Log("ERROR!!!");
-            SceneManager.LoadScene("Main menu");
+            SceneManager.LoadScene("MainMenu");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

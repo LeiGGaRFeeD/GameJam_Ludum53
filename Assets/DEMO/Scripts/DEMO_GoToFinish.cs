@@ -15,7 +15,7 @@ public class DEMO_GoToFinish : MonoBehaviour
         if (collision.GetComponent<Signal>())
         {
             Debug.Log("Go to finish scene");
-            SceneManager.LoadScene("Finished");
+            SceneManager.LoadScene("WinComics");
         }
     }
     // Update is called once per frame

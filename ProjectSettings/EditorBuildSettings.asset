@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Credits.unity
     guid: 2e3c8c11858720e4eb70d78bab197c6e
   - enabled: 1
-    path: Assets/Scenes/Comics/LoseScene 1.unity
+    path: Assets/Scenes/Comics/NotUsed/LoseScene 1.unity
     guid: ecf19ae2095691d4fb2600a474b387ec
+  - enabled: 1
+    path: Assets/Scenes/Comics/WinComics.unity
+    guid: a8d38dbe6ed938e42810162454d3eb7c
   m_configObjects: {}

@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2322276933772893592}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0.14, y: 0.53, z: 0}
   m_LocalScale: {x: 0.099523716, y: 0.094467655, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 3109578407619802970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.07999992, y: 0.099999905, z: 0}
-  m_LocalScale: {x: 0.0486844, y: 0.048684403, z: 1}
+  m_LocalScale: {x: 0.099687986, y: 0.099688, z: 2.0476372}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8017362881227895541}
@@ -158,12 +158,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 54aef6cefe3a18643a0f0e6c5e649cdc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb31be98e3396f144b3e23ccac7397b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -208,7 +208,7 @@ Transform:
   m_GameObject: {fileID: 6108538165435424350}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.07999992, y: 0.099999905, z: 0}
-  m_LocalScale: {x: 0.04868, y: 0.04868, z: 1}
+  m_LocalScale: {x: 0.09967898, y: 0.09967898, z: 2.0476372}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8017362881227895541}
@@ -255,12 +255,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 54aef6cefe3a18643a0f0e6c5e649cdc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb31be98e3396f144b3e23ccac7397b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -305,7 +305,7 @@ Transform:
   m_GameObject: {fileID: 6466733651959591481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.07999992, y: 0.099999905, z: 0}
-  m_LocalScale: {x: 0.0486844, y: 0.048684403, z: 1}
+  m_LocalScale: {x: 0.099687986, y: 0.099688, z: 2.0476372}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8017362881227895541}
@@ -352,12 +352,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 54aef6cefe3a18643a0f0e6c5e649cdc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb31be98e3396f144b3e23ccac7397b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -487,7 +487,7 @@ Transform:
   m_GameObject: {fileID: 7906213489872938806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.07999992, y: 0.099999905, z: 0}
-  m_LocalScale: {x: 0.0486844, y: 0.048684403, z: 1}
+  m_LocalScale: {x: 0.099687986, y: 0.099688, z: 2.0476372}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8017362881227895541}
@@ -534,12 +534,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 54aef6cefe3a18643a0f0e6c5e649cdc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb31be98e3396f144b3e23ccac7397b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -587,12 +587,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5638199692547495628}
-  - {fileID: 8239387361619069616}
   - {fileID: 5629819775328474958}
   - {fileID: 5363094405210457283}
   - {fileID: 3929242170924409454}
   - {fileID: 2770669392186782163}
+  - {fileID: 5638199692547495628}
+  - {fileID: 8239387361619069616}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

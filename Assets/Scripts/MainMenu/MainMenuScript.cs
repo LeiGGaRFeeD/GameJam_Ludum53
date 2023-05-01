@@ -41,10 +41,11 @@ public class MainMenuScript : MonoBehaviour
     }
     private void GoToQuit()
     {
-        Debug.Log("Quit from application pressed");
-        Application.Quit();
+        //  Debug.Log("Quit from application pressed");
+        //  Application.Quit();
+        SceneManager.LoadScene("Credits");
     }
-    public
+    //public
     // Update is called once per frame
     void Update()
     {

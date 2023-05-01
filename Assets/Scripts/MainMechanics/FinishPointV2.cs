@@ -7,6 +7,7 @@ public class FinishPointV2 : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private int _levelNow;
+    private bool _isFinished;
     void Start()
     {
         _levelNow = PlayerPrefs.GetInt("level");
@@ -53,12 +54,20 @@ public class FinishPointV2 : MonoBehaviour
     {
         if (collision.GetComponent<Signal>())
         {
-            _levelNow = PlayerPrefs.GetInt("level");
-            Debug.Log("Collision works. Target achived");
-            _levelNow++;
-            PlayerPrefs.SetInt("level", _levelNow);
-            InvokeRepeating("Call",3,0);
-            //_levelFound(_levelNow);
+            if (_isFinished == false)
+            {
+                _levelNow = PlayerPrefs.GetInt("level");
+                Debug.Log("Collision works. Target achived");
+                _levelNow++;
+                PlayerPrefs.SetInt("level", _levelNow);
+                InvokeRepeating("Call", 3, 0);
+                _isFinished = true;
+                //_levelFound(_levelNow);
+            }
+            if (_isFinished == true)
+            {
+                Destroy(collision.gameObject);
+            }
         }
     }
     private void Call()
@@ -70,5 +79,6 @@ public class FinishPointV2 : MonoBehaviour
     void Update()
     {
         Debug.Log("_load = "+PlayerPrefs.GetInt("level"));
+        
     }
 }

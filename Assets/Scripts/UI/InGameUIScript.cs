@@ -14,10 +14,33 @@ public class InGameUIScript : MonoBehaviour
     [SerializeField] private GameObject _redLineTwo;
     [SerializeField] private GameObject _redLineThree;
     [SerializeField] private GameObject _redLineFour;
+
+    [SerializeField] private GameObject[] _typeOneRadar;
+    [SerializeField] private GameObject[] _typeTwoRadar;
+    [SerializeField] private GameObject[] _typeThreeRadar;
+    [SerializeField] private GameObject[] _typeFourRadar;
     private int _lastPressed;
     void Start()
     {
         Changing(1);
+
+        for (int i = 0; i < _typeOneRadar.Length; i++)
+        {
+            _typeOneRadar[i].SetActive(true);
+        }
+        for (int i = 0; i < _typeTwoRadar.Length; i++)
+        {
+            _typeTwoRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeThreeRadar.Length; i++)
+        {
+            _typeThreeRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeFourRadar.Length; i++)
+        {
+            _typeFourRadar[i].SetActive(false);
+        }
+
         if (Time.timeScale == 1)
         {
             if (_lastPressed == 1)
@@ -53,21 +76,88 @@ public class InGameUIScript : MonoBehaviour
     {
         Changing(1);
         _lastPressed = 1;
+        for (int i = 0; i < _typeOneRadar.Length; i++)
+        {
+            _typeOneRadar[i].SetActive(true);
+        }
+        for (int i = 0; i < _typeTwoRadar.Length; i++)
+        {
+            _typeTwoRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeThreeRadar.Length; i++)
+        {
+            _typeThreeRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeFourRadar.Length; i++)
+        {
+            _typeFourRadar[i].SetActive(false);
+        }
     }
     public void ButtonForRight()
     {
         Changing(2);
         _lastPressed = 2;
+
+        for (int i = 0; i < _typeOneRadar.Length; i++)
+        {
+            _typeOneRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeTwoRadar.Length; i++)
+        {
+            _typeTwoRadar[i].SetActive(true);
+        }
+        for (int i = 0; i < _typeThreeRadar.Length; i++)
+        {
+            _typeThreeRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeFourRadar.Length; i++)
+        {
+            _typeFourRadar[i].SetActive(false);
+        }
     }
     public void ButtonForMixed()
     {
         Changing(3);
         _lastPressed = 3;
+
+        for (int i = 0; i < _typeOneRadar.Length; i++)
+        {
+            _typeOneRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeTwoRadar.Length; i++)
+        {
+            _typeTwoRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeThreeRadar.Length; i++)
+        {
+            _typeThreeRadar[i].SetActive(true);
+        }
+        for (int i = 0; i < _typeFourRadar.Length; i++)
+        {
+            _typeFourRadar[i].SetActive(false);
+        }
     }
     public void ButtonStartBoat()
     {
         Changing(4);
         _lastPressed = 4;
+
+        for (int i = 0; i < _typeOneRadar.Length; i++)
+        {
+            _typeOneRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeTwoRadar.Length; i++)
+        {
+            _typeTwoRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeThreeRadar.Length; i++)
+        {
+            _typeThreeRadar[i].SetActive(false);
+        }
+        for (int i = 0; i < _typeFourRadar.Length; i++)
+        {
+            _typeFourRadar[i].SetActive(true);
+        }
     }
     // Update is called once per frame
     void Update()

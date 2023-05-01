@@ -26,7 +26,7 @@ public class AssetChange : MonoBehaviour
         Checks(179, 270, 3, (int)_parent.transform.eulerAngles.z);
         Checks(269, 360, 4, (int)_parent.transform.eulerAngles.z);
 
-        Debug.Log("Transform by Z: " + _parent.transform.eulerAngles.z);
+        Debug.Log("Transform by Z: " + (int)_parent.transform.eulerAngles.z);
     }
 
     private void Checks(int minAngle,int maxAngle,int activePicture,int nowAngle)

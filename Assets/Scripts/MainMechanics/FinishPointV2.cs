@@ -10,6 +10,7 @@ public class FinishPointV2 : MonoBehaviour
     private bool _isFinished;
     void Start()
     {
+        _isFinished = false;
         _levelNow = PlayerPrefs.GetInt("level");
     }
     private void _levelFound(int _level)

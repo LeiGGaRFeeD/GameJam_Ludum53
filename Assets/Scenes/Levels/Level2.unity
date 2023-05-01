@@ -2090,6 +2090,18 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 10735544383325855, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13660415097704972, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667440768527985085, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4355299864965385407, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2146,6 +2158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CellLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 6091273474742985678, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6165213222476218519, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2169,6 +2185,10 @@ PrefabInstance:
     - target: {fileID: 8520969703169233883, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004485553359510828, guid: 0bbe9910cf5c8e34999f3c64e2323651, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2309,6 +2329,10 @@ PrefabInstance:
     - target: {fileID: 3771458197469092543, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
       propertyPath: m_Name
       value: UIcanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771458197469092543, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3771458197469092547, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
       propertyPath: m_Pivot.x

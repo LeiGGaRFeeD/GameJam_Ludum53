@@ -21,7 +21,7 @@ public class LoseSceneHelper : MonoBehaviour
     {
         //  Debug.Log("Go to last level");
         // _levelFound(_level);
-        InvokeRepeating("GoToLastLevelDelaye", 0.6f, 0);
+        InvokeRepeating("GoToMainMenuDelayed", 0.6f, 0);
     }
     public void GoToMainMenuDelayed()
     {

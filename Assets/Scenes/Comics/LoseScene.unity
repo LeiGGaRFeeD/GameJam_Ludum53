@@ -345,7 +345,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 50142458}
         m_TargetAssemblyTypeName: LoseSceneHelper, Assembly-CSharp
-        m_MethodName: GoToMainMenu
+        m_MethodName: GoToLastLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level5.unity
     guid: 22cd6c9b46b8bc74cad81f3ebb730083
   - enabled: 1
-    path: Assets/Scenes/Levels/Level6.unity
+    path: Assets/Scenes/Levels/NotUsed/Level6.unity
     guid: 06ae47d036a4ab943a9d74c17404c356
   - enabled: 1
     path: Assets/Scenes/Comics/LoseScene.unity

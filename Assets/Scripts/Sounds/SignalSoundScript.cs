@@ -12,13 +12,17 @@ public class SignalSoundScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        if (collision.gameObject.GetComponent<Signal>())
+        {
+            Destroy(collision.gameObject);
+            Instantiate(music, gameObject.transform.position, gameObject.transform.rotation);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<Signal>())
         {
-            Instantiate(music);
+            Instantiate(music,gameObject.transform.position,gameObject.transform.rotation);
         }
     }
     // Update is called once per frame

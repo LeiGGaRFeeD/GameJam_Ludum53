@@ -18,6 +18,12 @@ public class ComicsHelper : MonoBehaviour
     }
     public void GoToLevelOne()
     {
+        //   Debug.Log("Going to level one");
+        //  SceneManager.LoadScene("Level1");
+        InvokeRepeating("GoToLevelOneDelayed", 0.6f, 0);
+    }
+    public void GoToLevelOneDelayed()
+    {
         Debug.Log("Going to level one");
         SceneManager.LoadScene("Level1");
     }

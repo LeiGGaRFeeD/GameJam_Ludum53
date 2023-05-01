@@ -13,10 +13,22 @@ public class LoseSceneHelper : MonoBehaviour
     }
     public void GoToMainMenu()
     {
+        //   Debug.Log("Go to main menu");
+        //  SceneManager.LoadScene("MainMenu");
+        InvokeRepeating("GoToMainMenuDelayed", 0.6f, 0);
+    }
+    public void GoToLastLevel()
+    {
+        //  Debug.Log("Go to last level");
+        // _levelFound(_level);
+        InvokeRepeating("GoToLastLevelDelaye", 0.6f, 0);
+    }
+    public void GoToMainMenuDelayed()
+    {
         Debug.Log("Go to main menu");
         SceneManager.LoadScene("MainMenu");
     }
-    public void GoToLastLevel()
+    public void GoToLastLevelDelaye()
     {
         Debug.Log("Go to last level");
         _levelFound(_level);

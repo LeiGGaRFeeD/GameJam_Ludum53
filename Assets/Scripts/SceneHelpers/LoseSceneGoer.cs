@@ -21,9 +21,15 @@ public class LoseSceneGoer : MonoBehaviour
     {
         if (other.GetComponent<Signal>() != null)
         {
-            Debug.Log("You lose!");
-            SceneManager.LoadScene("LoseScene");
+            /*  Debug.Log("You lose!");
+              SceneManager.LoadScene("LoseScene");*/
+            InvokeRepeating("LoseSceneDelayerd",2.5f,0);
         }
+    }
+    private void LoseSceneDelayerd()
+    {
+        Debug.Log("You lose!");
+        SceneManager.LoadScene("LoseScene");
     }
     // Update is called once per frame
     void Update()

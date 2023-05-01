@@ -57,9 +57,15 @@ public class FinishPointV2 : MonoBehaviour
             Debug.Log("Collision works. Target achived");
             _levelNow++;
             PlayerPrefs.SetInt("level", _levelNow);
-            _levelFound(_levelNow);
+            InvokeRepeating("Call",3,0);
+            //_levelFound(_levelNow);
         }
     }
+    private void Call()
+    {
+        _levelFound(_levelNow);
+    }
+
     // Update is called once per frame
     void Update()
     {

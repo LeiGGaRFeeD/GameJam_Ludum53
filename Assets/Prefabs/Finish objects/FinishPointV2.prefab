@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6607534983875508227}
   - component: {fileID: 6607534983875508226}
   - component: {fileID: 6607534983875508225}
+  - component: {fileID: 3565558390772129842}
   - component: {fileID: 6607534983875508237}
   m_Layer: 0
   m_Name: FinishPointV2
@@ -33,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6607534983875508227
 SpriteRenderer:
@@ -134,6 +135,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3565558390772129842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6607534983875508224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1e94e269a375e4ba0df8382ada1d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 2070955123203697439, guid: 4d879a390a6368c4780038a93fa40f65, type: 3}
 --- !u!114 &6607534983875508237
 MonoBehaviour:
   m_ObjectHideFlags: 0

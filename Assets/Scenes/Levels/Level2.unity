@@ -2371,6 +2371,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3771458197469092547, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771458197469092547, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771458197469092547, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3771458197469092547, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2509,14 +2521,6 @@ PrefabInstance:
     - target: {fileID: 3771458198941246229, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ButtonStartBoat
-      objectReference: {fileID: 0}
-    - target: {fileID: 3771458198941246232, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.7999878
-      objectReference: {fileID: 0}
-    - target: {fileID: 3771458198941246232, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.14404297
       objectReference: {fileID: 0}
     - target: {fileID: 4250646563200803706, guid: 092115fa23b7ce04689067c47ff790de, type: 3}
       propertyPath: m_Enabled
